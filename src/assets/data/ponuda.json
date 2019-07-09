@@ -1,0 +1,17 @@
+[
+{
+    "naslov":"Vrhunsku uslugu",
+    "tekst":"Uvek će vas dočekati jako ljubazno osoblje",
+    "slika":"konobar.jpg"
+},
+{
+    "naslov":"Vrhunsku hranu",
+    "tekst":"Uvek ćete dobiti hranu sa divnim ukusom",
+    "slika":"biftek.jpg"
+},
+{
+    "naslov":"Vrhunsko piće",
+    "tekst":"Garant najboljeg pića uz najbolju hranu",
+    "slika":"pice.jpg"
+}
+]

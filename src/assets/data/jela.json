@@ -1,0 +1,101 @@
+[
+    {
+        "id":1,
+        "naziv":"Pasulj",
+        "cena":400,
+        "kategorija":"Domace, kuvano",
+        "slika":"pasulj.jpg",
+        "opis":"Jak pasulj za dobro varenje",
+        "sastojci":[
+            {
+                "naziv":"pasulj"
+            },
+            {
+                "naziv":"teletina"
+            }
+        ]
+    },
+    {
+        "id":2,
+        "naziv":"Biftek",
+        "cena":650,
+        "kategorija":"Prženo",
+        "slika":"biftek.jpg",
+        "opis":"Dobar biftek za pun ugođaj",
+        "sastojci":[
+            {
+                "naziv":"krmetina"
+            },
+            {
+                "naziv":"domaći sos"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "naziv":"Kokošija supa",
+        "cena":350,
+        "kategorija":"Domaće, kuvano",
+        "slika":"supa.png",
+        "opis":"Vrhunska supa za prehladu",
+        "sastojci":[
+            {
+                "naziv":"kokoška"
+            },
+            {
+                "naziv":"domaće povrće"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "naziv":"Sarme",
+        "cena":650,
+        "kategorija":"Domaće, kuvano",
+        "slika":"sarma.jpg",
+        "opis":"Vrhunska domaća sarma kakvu samo kod nas možete probati",
+        "sastojci":[
+            {
+                "naziv":"kupus"
+            },
+            {
+                "naziv":"mleveno meso"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "naziv":"Mešano meso",
+        "cena":950,
+        "kategorija":"Domaće, roštilj",
+        "slika":"rostilj.jpg",
+        "opis":"Vrhunski sveže prženi roštilj kakav samo kod nas možete probati",
+        "sastojci":[
+            {
+                "naziv":"belo meso"
+            },
+            {
+                "naziv":"ćevapi"
+            },
+            {
+                "naziv":"luk"
+            }
+        ]
+    },
+    {
+        "id":6,
+        "naziv":"Vino",
+        "cena":350,
+        "kategorija":"Alkoholno piće",
+        "slika":"vino.jpg",
+        "opis":"Vrhunsko vino",
+        "sastojci":[
+            {
+                "naziv":"grožđe"
+            },
+            {
+                "naziv":"alkohol"
+            }
+        ]
+    }
+]

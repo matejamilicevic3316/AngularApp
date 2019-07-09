@@ -1,0 +1,32 @@
+
+<section id="services" class="service-item">
+  <br/>
+  <br/>
+  <br/>
+  <div class="container">
+    <div class="center wow fadeInDown">
+      <h2>Naš meni</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-sm-6 col-md-4" *ngFor="let n of jela">
+        <div class="media services-wrap wow fadeInDown">
+          <div class="pull-left">
+            <img style="height: 200px" class="img-responsive" src="assets/images/{{n.slika}}">
+          </div>
+          <div class="media-body">
+            <h3 class="media-heading">{{n.naziv}}</h3>
+            <p>{{n.cena | currency:'RSD'}}</p>
+            <p>{{n.kategorija}}</p>
+            <a routerLink="{{n.id}}">Detalji</a>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+    <!--/.row-->
+  </div>
+  <!--/.container-->
+</section>

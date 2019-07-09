@@ -1,0 +1,19 @@
+<br/>
+<br/>
+<div class="clients-area center wow fadeInDown" style="text-align: center">
+<div style="width: 70%; margin-left: 13%; background-color:yellow; border-radius: 5%" class="thumbnails"><div class="box" >
+  <img src="assets/images/{{ jelo.slika }}" style="width: 400px;" alt="slika" />
+  <div class="inner">
+    <h3>{{ jelo.naziv }}</h3>
+    <p>{{ jelo.opis }}.</p>
+    <p>{{jelo.cena | currency:'RSD' }}</p>
+    <h3>Sastojci:</h3>
+    <ul style="list-style-type: none">
+      <li *ngFor="let k of jelo.sastojci">
+        {{k.naziv | capital}}
+      </li>
+    </ul>
+    
+    </div>
+</div>
+</div>
